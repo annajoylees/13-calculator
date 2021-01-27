@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    margin: 100px auto;
+    text-align: center;
+    width: 515px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 5px;
+    font-size: 30px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  .calculator {
+    padding: 20px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 1px solid grey;
+  }
+  
+  .input {
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    height: 60px;
+    width: 450px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 30px;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+  }
+  
+  .input:hover {
+    border: 1px solid #bbb;
+  }
+  
+  
+  .operators div {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 1px;
+    width: 81px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .operators div:hover {
+    background-color: #ddd;
+    border-color: #aaa;
+  }
+
+  .leftPanel {
+    display: inline-block;
+  }
+  
+  .numbers div {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+  
+  .numbers div:hover {
+    background-color: #f1f1f1;
+    border-color: #bbb;
+  }
+  
+  div.equal {
+    display: inline-block;
+    border: 1px solid #955DD4;
+    border-radius: 1px;
+    width: 82px;
+    text-align: center;
+    padding: 125px 10px;
+    margin: 10px 0px 10px 2px;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #A876E0;
+    transition: all .2s ease-in-out;
+  }
+  
+  div.equal:hover {
+    background-color: #743BB4;
+    border-color: #955DD4;
+  }
+  
